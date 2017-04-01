@@ -1,19 +1,19 @@
 package com.java1234.entity;
 
 /**
- * ÓÃ»§ÊµÌå
+ * ï¿½Ã»ï¿½Êµï¿½ï¿½
  * @author Administrator
  *
  */
 public class User {
 
-	private Integer id; // ±àºÅ
-	private String userName; // ÓÃ»§Ãû
-	private String password; // ÃÜÂë
-	private String trueName; // ÕæÊµÐÕÃû
-	private String email; // ÓÊ¼þ
-	private String phone; // µç»°
-	private String roleName; // ½ÇÉ«Ãû³Æ ÏµÍ³¹ÜÀíÔ± ÏúÊÛÖ÷¹Ü ¿Í»§¾­Àí ¸ß¹Ü
+	private Integer id; // ï¿½ï¿½ï¿½
+	private String userName; // ï¿½Ã»ï¿½ï¿½ï¿½
+	private String password; // ï¿½ï¿½ï¿½ï¿½
+	private String trueName; // ï¿½ï¿½Êµï¿½ï¿½ï¿½ï¿½
+	private String email; // ï¿½Ê¼ï¿½
+	private String phone; // ï¿½ç»°
+	private String roleName; // ï¿½ï¿½É«ï¿½ï¿½ï¿½ ÏµÍ³ï¿½ï¿½ï¿½ï¿½Ô± ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Í»ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ß¹ï¿½
 	
 	public Integer getId() {
 		return id;
@@ -56,6 +56,14 @@ public class User {
 	}
 	public void setRoleName(String roleName) {
 		this.roleName = roleName;
+	}
+	
+	
+	@Override
+	public String toString() {
+		return "User [id=" + id + ", userName=" + userName + ", password="
+				+ password + ", trueName=" + trueName + ", email=" + email
+				+ ", phone=" + phone + ", roleName=" + roleName + "]";
 	}
 	
 	
